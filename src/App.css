@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #ccf5976c;
+  background-color: #060e0be7;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,12 +17,13 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: 'Lato', sans-serif;
+  color: white;
 }
 
 .container {
   margin: 30px auto;
   width: 350px;
-  
+ 
 }
 
 h1 {
@@ -48,6 +49,7 @@ h4 {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
+   color: black;
 }
 
 .inc-exp-container > div {
@@ -158,7 +160,7 @@ input[type='number'] {
 }
 
 .balance {
-  color: rgb(0, 60, 255);
+  color: rgb(255, 251, 0);
   text-align: center;
   font-weight: bolder;
 }

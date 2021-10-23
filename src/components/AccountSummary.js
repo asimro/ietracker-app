@@ -29,13 +29,13 @@ export const AccountSummary = () => {
             <div>
                 <h4>Income</h4>
                 <p className="money plus">
-                    {income}
+                    ${income}
                 </p>
             </div>
             <div>
                 <h4>Expense</h4> 
                 <p className="money minus">
-                    {expense}
+                    ${expense}
                 </p>
             </div>
             
