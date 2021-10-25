@@ -8,6 +8,8 @@ import { Balance } from './components/Balance';
 import { AccountSummary } from './components/AccountSummary';
 import { TransactionHistory } from './components/TransactionHistory';
 import { AddTransaction } from './components/AddTransaction';
+import { loadBlockChain } from './context/asyncAction';
+
 
 //import the Global Provider 
 import { GlobalProvider } from './context/GlobalState';
@@ -17,6 +19,7 @@ function App() {
   return (
     <GlobalProvider>
       <Header />
+      <button onClick={loadBlockChain} className="btnweb3">Load Web3 </button>
       <div className="container">
         <Balance />
         <AccountSummary />
